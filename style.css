@@ -1,5 +1,5 @@
 body{
- background-image: url(435540566_2147248555626296_7039745094617172015_n.jpg);
+ background-image: url(img.jpg);
  background-size: 100% 100%;
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -7,30 +7,32 @@ body{
 .menu{
     margin-left: 308px;
     height: 70px;
-    margin-top: -85px;
-    background-color: black;
-    color: white;
-    opacity: 0.90;
+    margin-top: -86px;
+    background-color: white;
+    color: black;
+    opacity: 0.80;
+    border-radius: 3px;
     
 }
 ul{
     display: flex;
     font-size: 21px;
-    margin-left: 300px;
+    margin-left: 350px;
+    justify-content: center;
 }
 ul li{
-    margin-left: 110px;
+    margin-left: 100px;
     font-weight: bold;
     display: inline-block;
     margin-top: 20px;
     
 }
 ul li a{
-    color: white;
+    color:black;
 }
 ul li a:hover{
     color: black;
-    border: 1px solid blueviolet;
+    border: 1px solid black;
     background-color: white;
     padding: 15px;
     opacity: 1.0;
@@ -40,11 +42,15 @@ ul li a:hover{
    margin-left: 15px;
    margin-bottom: 20px;
    font-family: 'Times New Roman';
-   color: white;
+   color:white;
 }
-span{
+.main span{
+    color: black;
+}
+h3 span{
     margin-left: 10px;
     margin-bottom: 50px;
+    color: black;
 }
 .content{
     width: 100%;
@@ -117,7 +123,7 @@ span{
     overflow: hidden;
     animation: typing 2s steps(25),
      cursor .4s step-end infinite alternate;
-     color: white;
+     color: black;
      font-family: 'Times New Roman';
 }
 
@@ -175,22 +181,151 @@ div.gallery:hover {
  button{
     align-items: hide;
  }
+ .Icon{
+    font-size: 30px;
+    margin-right: 1000px;
+ }
+ .Icon i{
+    margin-left: 10px;
+ }
  @media only screen and (max-width: 495px) {
     body {
-      background-image: url(435247070_314560428337850_868548837037135036_n.jpg);
+      background-image: url(grey-white-geometric-abstract-background-free-vector.jpg);
     }
 i{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    color: black;
+}
+.main span{
+    color: black;
+
 }
 .content{
     color:black;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
+    width: 95%;
+    margin-top: -60px;
      }
 .text{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: black;
 }
+.text h3 span{
+    color: black;
+}
+.menu{
+    margin-left: -15px;
+    margin-right: -8px;
+    height: 70px;
+    margin-top:-10px;
+    color: black;
+    opacity: 0.80;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    font-size: 21px;
+    margin-left: -20px;
+    margin-bottom: 100px;
+}
+ul li{
+    margin-left: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+ul li a{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+div.gallery{
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 350px;
+    height: 309px;
+}
+div.gallery img {
+    height: 260px;
  }
+ .content h2{
+    margin-top: 300px;
+    display: inline-block;
+    background-color: white;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border: 1px solid black;
+    opacity: 0.70;
+    border-radius: 3px;
+ }
+.content a{
+margin-left: 120px;
+}
+.Icon{
+    font-size: 30px;
+    margin-top: 510px;
+    background-color: white;
+    display: flex;
+    align-items: left;
+    
+}
+.Icon i{
+    color: black;
+
+
+}
+}
+.Photo{
+    font-size: 40px;
+    color: black;
+    padding: 2px;
+    width: 300px;
+    height: 50px;
+    margin-top: -10px;
+    margin-right: -30px;
+}
+.info{
+    margin-top: -1100px;
+    margin-left: 420px;
+}
+.info h2{
+    color: goldenrod;
+    text-decoration: overline underline;
+}
+.honor{
+    margin-top: 210px;
+    margin-left: 420px;
+}
+.honor h2{
+    color: goldenrod;
+    text-decoration: overline underline;
+    
+}
+  .honour{
+    margin-top: 240px;
+    margin-left: 420px;
+  }
+  .honour h2{
+    color: goldenrod;
+    text-decoration: overline underline;
+  }
+  .honors{
+    margin-top: -1420px;
+    margin-left: 420px;
+  }
+  .honors span{
+    font-size: 30px;
+    color: gold;
+  }
+  .honors h3{
+    text-decoration: underline;
+  }
